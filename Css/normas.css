@@ -1,0 +1,156 @@
+
+
+:root{
+    --c1: #FFFF00;
+    --c2: #012E76;
+    --c3: #154E15;
+    --c4: #024BC2;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+
+header {
+    width: 100%;
+    background-color: var(--c2);
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .6s;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+
+}
+
+header i:hover{
+    color: greenyellow;
+}
+
+header ul{
+    list-style-type: none;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 25px;
+
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.conteiner {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexivel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexivel  nav  ul  li a:hover {
+    color: greenyellow;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color:#fff;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    color: greenyellow;
+}
+
+.content{
+    max-width:1480px;
+    margin:auto;
+    
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.logo > img{
+    height: 130px;
+}
+
+.literalmente-normas > h1{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 25px;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Mooli', sans-serif;
+    font-size: 3rem;
+
+    text-shadow: 2px 7px 5px rgba(255, 255, 255, 0.3), 
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.lista > li{
+    color: #fff;
+    text-align: left;
+    margin: 30px;
+}
+
+.linha{
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+#icon-face{
+    font-size: 2.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.GUS{
+    color: rgb(203, 193, 221);
+}
+
+.GUS:hover{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}

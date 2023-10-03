@@ -1,0 +1,167 @@
+
+
+:root{
+    --c1: #FFFF00;
+    --c2: #012E76;
+    --c3: #154E15;
+    --c4: #024BC2;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+
+header {
+    width: 100%;
+    background-color: var(--c2);
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .6s;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+
+}
+
+header i:hover{
+    color: greenyellow;
+}
+
+header ul{
+    list-style-type: none;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 25px;
+
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.conteiner {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexivel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexivel  nav  ul  li a:hover {
+    color: greenyellow;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color:#fff;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    color: greenyellow;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.registration-form {
+    margin-top: 80px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    margin-bottom: 10px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
+
+.siga-nos{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top:20px;
+}
+
+.icon-face > a{
+    font-size: 2.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.GUS{
+    color: rgb(203, 193, 221);
+}
+
+.frases{
+    padding-top: 10px;
+}
+.GUS:hover{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    height: 250px;
+}

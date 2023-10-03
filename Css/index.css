@@ -1,0 +1,368 @@
+
+
+:root{
+    --c1: #FFFF00;
+    --c2: #012E76;
+    --c3: #154E15;
+    --c4: #024BC2;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .6s;
+}
+
+header i {
+    font-size: 30px;
+    color: var(--c1);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+header i:hover{
+    color: greenyellow;
+}
+
+header ul{
+    list-style-type: none;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px 25px;
+
+}
+
+header ul li a {
+    color: var(--c1);
+    text-decoration: none;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+header.rolagem {
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i {
+    color: var(--c4);
+    text-shadow: none;
+}
+
+.conteiner {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.conteiner2{
+    max-width:1680px;
+    margin:auto;
+
+    background-color: rgb(235, 220, 202);
+    border-radius: 10px;
+}
+
+.flexivel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.flexivel  nav  ul  li a:hover {
+    color: greenyellow;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color: var(--c2);
+    color: var(--c1);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    color: greenyellow;
+}
+
+#botao.rolagem button{
+    color: #fff;
+}
+
+#botao.rolagem button:hover{
+    color: greenyellow;
+}
+
+.fundo {
+    height: 100vh;
+    background-image: url(../images/Gusmão\ Frente.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo h1{
+    text-shadow: 2px 2px 2px black;
+    font-size: 4em;
+    font-family: 'EB Garamond', 'Times New Roman', Times serif;
+    color: #fff;
+}
+
+.fundo h1 span{
+    color: var(--c1);
+}
+
+.filo-escola{
+    margin-left: 120px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(235, 220, 202);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
+    border-radius: 3px;
+}
+
+main > h1 {
+    display: flex;
+    padding-left: 5% ;
+    padding-top: 30px;
+
+    font-family: 'EB Garamond', 'Times New Roman', Times serif;
+    font-size: 4em;
+}
+
+.fundo-card{
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #262d94;
+    color: #fff;
+    width: 310px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.389) 10px 10px 10px;
+    text-align: center;
+    margin-left: 10px;
+    
+    padding-top: 30px;
+    
+}
+
+
+.card > span{
+    display: block;
+    padding: 25px 10px 10px 10px;
+
+}
+
+#esquerda{
+    margin-left: 45px;
+}
+
+#img-esquerda{
+    background-image: url(../images/folclore.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 250px;
+}
+
+#img-meio1{
+    background-image: url(../images/BOMBEIROS\ NA\ ESCOLA.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 250px;
+}
+
+#meio{
+    background-image: url(../images/entradagusma.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 250px;
+}
+
+#direita{
+    margin-right: 45px;
+}
+
+#img-direita{
+    background-image: url(../images/futdosguri.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 250px;
+}
+
+
+.matricula{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(9,48,121,1) 48%, rgba(9,9,121,1) 100%);
+    color: #fff;
+    width: 1680px;
+    height: 240px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
+}
+
+.gusma > h2 {
+    font-family: 'EB Garamond', 'Times New Roman', Times serif;
+    font-size: 3em;
+    text-shadow: 2px -3px 4px rgba(0, 0, 0, 0.678);
+    padding-top: 30px;
+}
+
+.matri-ja h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'Mooli', sans-serif;
+}
+
+.botao-matri{
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-matri{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--c4);
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 20px;
+}
+.btn-matri > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    margin: 60px auto;
+    margin-bottom: 15px; /* Espaço vazio no topo para a barra de navegação */
+    width: 1280px;
+    height: 800px;
+}
+
+.gallery {
+    display: flex;
+    width: 1280px;
+    height: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+}
+
+.butaums{
+    padding-left: 735px;
+}
+
+.butaums > button{
+    display:inline-block;
+
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--c4);
+
+    margin-top: 10px;
+    margin-bottom: 25px ;
+    cursor: pointer;
+}
+
+#anterior {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#proximo {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.siga-nos{
+    margin-top:20px;
+}
+
+#icon-face{
+    font-size: 2.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.GUS{
+    color: rgb(203, 193, 221);
+}
+
+.GUS:hover{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}
