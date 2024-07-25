@@ -29,11 +29,11 @@ function mostrarImagemProxima() {
 }
 
 function iniciarSlideshow() {
-    intervalo = setInterval(mostrarImagemProxima, 3000); // Muda de imagem a cada 3 segundos (3000 ms)
+    intervalo = setInterval(mostrarImagemProxima, 3000); // Muda de imagem a cada 3s
 }
 
 function pararSlideshow() {
     clearInterval(intervalo);
 }
 
-iniciarSlideshow(); // Inicia o slideshow automaticamente
+iniciarSlideshow(); // começa o slidwshow

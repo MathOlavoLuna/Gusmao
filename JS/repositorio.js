@@ -1,6 +1,5 @@
 
 
-// Referências aos elementos HTML
 const livrosContainer = document.getElementById('livros-container');
 const adicionarLivroBtn = document.getElementById('adicionar-livro');
 const modal = document.getElementById('modal');
