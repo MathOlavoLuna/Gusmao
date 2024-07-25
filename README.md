@@ -21,7 +21,10 @@ Utilizando Forms, por conta de ser um projeto simples as informações da inscri
 Um repositório de livros didáticos;<br> 
 ![Repository Image](images/readme-imgs/repositorio.png)
 
-Utilizando a sessionStorage para armazenar um JSON com os livros cadastrados de forma localmente.<br> 
+Utilizando a sessionStorage para armazenar um JSON com os livros adicionados de forma localmente, para adicionar o livro a biblioteca abro uma modal.<br> 
+
+![Repository Image](images/readme-imgs/repo-modal.png) <br>
+
 
 Uma galeria de fotos;<br> 
 ![Galery Image](images/readme-imgs/slideshow-imgs.png)
